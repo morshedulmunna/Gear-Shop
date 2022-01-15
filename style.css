@@ -9,6 +9,7 @@
 /* Global CSS =========>>>>> */
 :root {
   --button_Color: #e02c6d;
+  --Font_Color: #3a3a3a;
 }
 .container {
   max-width: 70%;
@@ -25,7 +26,6 @@ h1 {
 p {
   font-size: 16px;
   line-height: 24px;
-  text-align: justify;
 }
 .Default__btn {
   width: 196px;
@@ -37,10 +37,7 @@ p {
   color: #fff;
   cursor: pointer;
 }
-.Default__btn:hover {
-  color: #222;
-  transition: ease 0.3s;
-}
+
 /* Navigation CSS ====================>>>>>>> */
 #bar {
   display: none;
@@ -54,9 +51,10 @@ nav {
 /* Nav Logo */
 nav p {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   cursor: pointer;
+  color: #e02c6d;
 }
 nav .nav__menu,
 ul {
@@ -71,7 +69,7 @@ nav ul li a,
 i {
   text-decoration: none;
   margin-left: 2rem;
-  color: #222;
+  color: var(--Font_Color);
   cursor: pointer;
 }
 nav ul li a:hover,
@@ -95,7 +93,7 @@ i:hover {
   flex-direction: row-reverse;
 }
 .header__area .text__area h1 {
-  color: #3a3a3a;
+  color: var(--Font_Color);
 }
 .header__area .text__area p {
   width: 80%;
@@ -129,3 +127,38 @@ i:hover {
 }
 
 /* Popular Collection CSS =========>>>>>> */
+.Popular__product h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.product__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 100px;
+}
+
+.product {
+  box-shadow: -1px 1px 7px 2px rgba(209, 209, 209, 0.74);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 15px;
+  border-radius: 10px;
+}
+.text_part {
+  padding: 0.5rem;
+}
+
+.text_part h3 {
+  margin: 0.5rem 0;
+}
+.text_part p {
+  margin: 0.5rem 0;
+}
+
+.text_part span i {
+  color: #fb8200;
+  margin: 0;
+}

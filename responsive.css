@@ -7,7 +7,10 @@
   .header__area {
     flex-direction: column;
   }
-  /* Company Css */
+  /* Popular Product Css */
+  .product__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile Version Responsive */
@@ -56,5 +59,9 @@
   /* Company Logo */
   .company .company__logo {
     height: 30vh;
+  }
+  /* Popular Product */
+  .product__wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

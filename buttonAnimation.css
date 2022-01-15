@@ -1,7 +1,7 @@
 .button {
-  min-width: 170px;
-  min-height: 40px;
-  font-size: 14px;
+  min-width: 200px;
+  min-height: 50px;
+  font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   background: #e02c6d;
@@ -11,7 +11,6 @@
     rgb(212, 35, 100) 100%
   );
   border: none;
-  box-shadow: 12px 12px 24px rgb(243, 53, 123, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -23,8 +22,8 @@
 button::before {
   content: "";
   border-radius: 1000px;
-  min-width: calc(170px + 12px);
-  min-height: calc(40px + 12px);
+  min-width: calc(220px + 12px);
+  min-height: calc(60px + 12px);
   border: 3px solid #e02c6d;
   box-shadow: rgb(224, 44, 109, 0.64);
   position: absolute;
