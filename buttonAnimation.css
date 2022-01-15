@@ -1,7 +1,7 @@
 .button {
-  min-width: 250px;
-  min-height: 50px;
-  font-size: 18px;
+  min-width: 170px;
+  min-height: 40px;
+  font-size: 14px;
   font-weight: bold;
   color: #ffffff;
   background: #e02c6d;
@@ -23,8 +23,8 @@
 button::before {
   content: "";
   border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
+  min-width: calc(170px + 12px);
+  min-height: calc(40px + 12px);
   border: 3px solid #e02c6d;
   box-shadow: rgb(224, 44, 109, 0.64);
   position: absolute;
