@@ -129,13 +129,13 @@ i:hover {
 /* Popular Collection CSS =========>>>>>> */
 .Popular__product h2 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .product__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .product {
@@ -161,4 +161,15 @@ i:hover {
 .text_part span i {
   color: #fb8200;
   margin: 0;
+}
+.see__more {
+  display: flex;
+  justify-content: flex-end;
+}
+.see__more a {
+  text-decoration: none;
+  color: var(--button_Color);
+}
+.see__more a > span {
+  margin-left: 10px;
 }

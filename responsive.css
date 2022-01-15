@@ -2,6 +2,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 80%;
+    margin: auto;
   }
   /* Header Css */
   .header__area {
@@ -21,6 +22,7 @@
   .container {
     position: relative;
     max-width: 90%;
+    margin: auto;
   }
   /* Navigation Part */
   nav .nav__menu > ul {
