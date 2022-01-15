@@ -24,7 +24,6 @@ button::before {
   border-radius: 1000px;
   min-width: calc(220px + 12px);
   min-height: calc(60px + 12px);
-  border: 3px solid #e02c6d;
   box-shadow: rgb(224, 44, 109, 0.64);
   position: absolute;
   top: 50%;

@@ -198,6 +198,37 @@ i:hover {
 .reviewer .reviewer__name img {
   border-radius: 50%;
 }
+
+/* News Latter CSs */
+.newslatter {
+  background-color: #ff438834;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+.newslatter h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+}
+.newslatter input {
+  width: 50%;
+  padding: 0.7rem;
+}
+.newslatter input:focus {
+  font-size: 1rem;
+  outline: none;
+}
+
+.newslatter button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--button_Color);
+  border: none;
+}
 /* Footer Part Css */
 footer {
   background-color: #0a0826;
@@ -235,3 +266,5 @@ li i {
   margin-left: 0;
   padding: 0 1rem;
 }
+
+/* ================================================The End ======================================credit by morshedulmunna */
