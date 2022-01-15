@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* Global CSS =========>>>>> */
+:root {
+  --button_Color: #e02c6d;
+}
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 70px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+.Default__btn {
+  width: 196px;
+  height: 44px;
+  background-color: var(--button_Color);
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.Default__btn:hover {
+  color: #222;
+  transition: ease 0.3s;
+}
+/* Navigation CSS ====================>>>>>>> */
+#bar {
+  display: none;
+}
+nav {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Nav Logo */
+nav p {
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+nav .nav__menu,
+ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a,
+i {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #222;
+  cursor: pointer;
+}
+nav ul li a:hover,
+i:hover {
+  color: var(--button_Color);
+  transition: ease 0.3s;
+}
+
+/* Header CSS =====================>>>>>>>>>>>> */
+.header__image {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 420px;
+}
+.header__area {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.header__area .text__area h1 {
+  color: #3a3a3a;
+}
+.header__area .text__area p {
+  width: 80%;
+  padding: 1rem 0;
+}
+.header__area .text__area button {
+  border-radius: 41px;
+}
+.header__area .text__area button > span {
+  margin-left: 0.5rem;
+}
+
+/* Company Logo  show-up Css ============>>>>> */
+.company {
+  padding: 69px 0 100px 0;
+}
+.company hr {
+  border: 1px solid rgb(238, 238, 238);
+}
+.company .company__logo {
+  height: 110px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company .company__logo img {
+  padding: 10px;
+}
