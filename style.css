@@ -179,6 +179,7 @@ i:hover {
 }
 .see__more a > span {
   margin-left: 10px;
+  color: var(--button_Color);
 }
 
 /* Customer Reviwe Css */
