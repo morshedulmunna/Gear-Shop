@@ -54,6 +54,7 @@ nav {
 /* Nav Logo */
 nav p {
   text-transform: uppercase;
+  font-size: 18px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -115,7 +116,7 @@ i:hover {
   border: 1px solid rgb(238, 238, 238);
 }
 .company .company__logo {
-  height: 110px;
+  height: 20vh;
   width: 90%;
   margin: auto;
   display: flex;
@@ -126,3 +127,5 @@ i:hover {
 .company .company__logo img {
   padding: 10px;
 }
+
+/* Popular Collection CSS =========>>>>>> */

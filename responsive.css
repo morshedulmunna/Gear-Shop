@@ -41,8 +41,20 @@
     width: 100%;
     padding-bottom: 2rem;
   }
+  .text__area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .text__area h1 {
     font-size: 35px;
     line-height: 55px;
+    text-align: center;
+  }
+
+  /* Company Logo */
+  .company .company__logo {
+    height: 30vh;
   }
 }
