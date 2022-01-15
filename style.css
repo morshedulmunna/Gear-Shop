@@ -72,6 +72,9 @@ i {
   color: var(--Font_Color);
   cursor: pointer;
 }
+nav ul li i {
+  color: var(--Font_Color);
+}
 nav ul > li a:hover,
 i:hover {
   color: var(--button_Color);
@@ -147,8 +150,12 @@ i:hover {
   margin: 15px;
   border-radius: 10px;
 }
+.product img {
+  width: 100%;
+}
 .text_part {
   padding: 0.5rem;
+  width: 100%;
 }
 
 .text_part h3 {
