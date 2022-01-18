@@ -169,6 +169,10 @@ i:hover {
   color: #fb8200;
   margin: 0;
 }
+#rating {
+  display: inline;
+}
+
 .see__more {
   display: flex;
   justify-content: flex-end;
